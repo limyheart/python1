@@ -1,3 +1,4 @@
+import time
 print("hello world")
 
 def demo():
@@ -13,3 +14,6 @@ class Index(object):
 
 tom = Index("xiaoming")
 tom.demo_print()
+
+time.sleep(1)
+print("time")
